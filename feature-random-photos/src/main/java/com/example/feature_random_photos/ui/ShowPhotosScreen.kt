@@ -24,7 +24,7 @@ import androidx.compose.ui.unit.dp
 import cafe.adriel.voyager.core.screen.Screen
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
-import com.example.feature_random_photos.data.model.PhotosResponseItem
+import com.example.domain.model.PhotosResponseItem
 import com.example.feature_random_photos.viewmodel.PhotosViewModel
 import org.koin.androidx.compose.getViewModel
 

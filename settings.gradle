@@ -15,3 +15,8 @@ dependencyResolutionManagement {
 rootProject.name = "navigation-compose"
 include ':app'
 include ':feature-random-photos'
+include ':bottom-sheet-navigator'
+include ':navigation'
+include ':advanced-examples'
+include ':data'
+include ':domain'

@@ -4,8 +4,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalSavedStateRegistryOwner
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.compose.LocalViewModelStoreOwner
-import com.example.feature_random_photos.data.model.PhotosResponseItem
-import com.example.feature_random_photos.data.repository.FetchPhotosRepo
+import com.example.data.repository.FetchPhotosRepo
+import com.example.domain.model.PhotosResponseItem
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import org.koin.androidx.compose.getComposeViewModelOwner

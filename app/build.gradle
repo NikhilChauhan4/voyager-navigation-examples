@@ -47,6 +47,11 @@ android {
 
 dependencies {
   implementation(project(":feature-random-photos"))
+  implementation(project(":advanced-examples"))
+  implementation(project(":bottom-sheet-navigator"))
+  implementation(project(":navigation"))
+  implementation(project(":data"))
+  implementation(project(":domain"))
   implementation 'androidx.core:core-ktx:1.7.0'
   implementation "androidx.compose.ui:ui:$compose_version"
   implementation "androidx.compose.material:material:$compose_version"
