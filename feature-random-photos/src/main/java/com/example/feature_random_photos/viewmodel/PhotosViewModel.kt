@@ -8,7 +8,6 @@ import com.example.data.repository.FetchPhotosRepo
 import com.example.domain.model.PhotosResponseItem
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
-import org.koin.androidx.compose.getComposeViewModelOwner
 import org.koin.androidx.viewmodel.ViewModelOwner
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.core.annotation.KoinInternalApi

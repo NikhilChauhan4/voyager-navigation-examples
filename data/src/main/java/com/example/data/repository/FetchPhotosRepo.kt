@@ -9,6 +9,6 @@ class FetchPhotosRepo(private val getPhotosService: GetPhotosService) {
 
 val fetchPhotosModule = module {
   factory {
-    FetchPostsRepo(get())
+    FetchPhotosRepo(get())
   }
 }

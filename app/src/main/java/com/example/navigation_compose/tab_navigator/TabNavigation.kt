@@ -16,10 +16,10 @@ import cafe.adriel.voyager.navigator.tab.LocalTabNavigator
 import cafe.adriel.voyager.navigator.tab.Tab
 import cafe.adriel.voyager.navigator.tab.TabNavigator
 import com.example.feature_random_photos.viewmodel.PhotosViewModel
-import com.example.feature_random_photos.viewmodel.getViewModel
 import com.example.navigation_compose.tab_navigator.tabs.HomeTab
 import com.example.navigation_compose.tab_navigator.tabs.ProfileTab
 import com.example.navigation_compose.tab_navigator.tabs.SettingTab
+import org.koin.androidx.compose.getViewModel
 
 @Composable
 fun TabNavigation() {
